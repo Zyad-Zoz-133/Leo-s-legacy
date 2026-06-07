@@ -21,6 +21,10 @@ body{
   margin: 20px;
 }
 
+.card ul li{
+  list-style: none;
+}
+
 h1,h2,h3,p,span,li,h4{
   color :var(--text-color);
   margin: 5px;
@@ -35,7 +39,7 @@ img {
 }
 
 h3{
-  color: #00f5d4 ;
+  color: #b8860b ;
   font-size: x-large;
   /* ! اللون م لايق ع الويب  */
 }
@@ -51,9 +55,82 @@ p,li,h4{
 
 h4{
   margin: 15px;
+  color:#b8860b ;
 }
 
 .All-time-trophies {
   list-style: none;
 }
 
+table{
+  color: var(--text-color);
+  border-collapse: collapse;
+  border: #121212;
+  padding: left 30px;;
+}
+
+td,tr{
+  padding: 6px;
+  border : 1px solid #b8860b ;
+  white-space: nowrap;
+  overflow:auto ;
+}
+
+td{
+  margin: 5px;
+  border: 1px solid #b8860b ;
+}
+
+caption{
+  padding-bottom: 15px;
+}
+
+th{
+  background-color: #b8860b;
+  color: var(--main-bg);
+  padding: 10px;
+  margin:8px;
+  text-align: center;
+  border:  1px solid var(--main-bg);
+}
+
+th:last-child{
+  border-right: none;
+}
+
+td:first-child{
+  background-color: #b8860b ;
+  color : var(--main-bg);
+  border: 1px solid var(--main-bg);
+  
+}
+ 
+.intro{
+  margin:10px;
+}
+
+h2{
+  padding: 10px;
+}
+
+hr{
+  border:none;
+  height: 3px;
+  background-color: #b8860b;
+  margin-top:10px ;
+  padding: none;
+  width: 100%;
+  margin-left: auto;
+}
+
+h1{
+  color:#b8860b;
+}
+
+.the-intro-photo{
+  padding-left:0;
+}
+
+li:nth-child(4) ul li{
+  font-size: medium;
+}
