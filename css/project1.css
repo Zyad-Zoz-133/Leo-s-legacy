@@ -21,7 +21,7 @@ body{
   background-color: var(--card-bg);
   border-radius: 40px;
   margin: 20px;
-  padding: 20px;
+  padding: 25px;
 }
 
 .card p{
@@ -108,7 +108,10 @@ td:first-child{
   background-color: #b8860b ;
   color : var(--main-bg);
   border: 1px solid var(--main-bg);
-  
+}
+
+td{
+  text-align: center;
 }
  
 .intro{
@@ -195,3 +198,14 @@ li:nth-child(4) ul li{
   align-self: flex-start;
     margin-left: 5px;
 }
+
+.card:hover{
+  background-color: #2f2f2f;
+  transition: background-color 0.2s ease;
+}
+
+.messi-info:hover{
+  background-color: #2f2f2f;
+  transition: background-color 0.2s ease;
+}
+
